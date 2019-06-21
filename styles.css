@@ -2,7 +2,7 @@
 	font-size: 1.5em;
 }
 
-.price .small-text{
+.price .small-text {
 	font-size: .7em;
 }
 
@@ -18,4 +18,31 @@
 /* Esta clase ya existe */
 .small-text {
 	font-size: .9em;
+}
+
+
+/* Nuevas clases */
+
+.card,
+.border-left,
+.border-right {
+	border: 1px solid #f2f2f2 !important;
+}
+
+.card.border-0 {
+	border: none !important;
+}
+
+.icons>.icon img {
+	width: 30px;
+}
+
+/* Image zoom */
+
+.image-zoom-available {
+	cursor: zoom-in;
+}
+
+.image-zoom-available.is-active {
+	cursor: none;
 }
